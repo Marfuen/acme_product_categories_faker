@@ -59,7 +59,7 @@ class App extends Component {
   render(){
     return(
       <div>
-        <h1>Acme Acme Categories and Products by faker</h1>
+        <h1>Acme Categories and Products by faker</h1>
         <button className="btn btn-primary"onClick={ this.createCategories } type="submit"> Create category </button>
         <List categories={ this.state.categories } createProducts={ this.createProducts } deleteCategory={ this.deleteCategory } products={this.state.products} deleteProduct={this.deleteProduct}/>
       </div>
